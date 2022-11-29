@@ -1,6 +1,28 @@
+body{
+    min-height: 100%;
+}
+
+.title{
+    text-align: center;
+}
+
+.calculator{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 3px solid darkgreen;
+    border-radius: 3%;
+    background-color: gainsboro;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 165px;
+    height: 190px;
+}
+
 .display{
     width: 120px;
     height: 30px;
+    background-color: aliceblue;
     border: 1px solid black;
     margin-bottom: 5px;
     text-align: end;
@@ -17,3 +39,26 @@
     gap: 3px;
 }
 
+.operator,
+.clear{
+    background-color: green;
+    color: yellow;
+    width: 30px;
+    text-align: center;
+    text-shadow: 3ch;
+}
+
+.clear{
+    width: 75px;
+    justify-self: center;
+    margin-left: 15px;
+}
+
+.end{
+    clear:both;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-left: auto;
+    padding-bottom: 15px;
+}
